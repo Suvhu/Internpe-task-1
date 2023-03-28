@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box .boxy{
+    width: 30%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(189, 72, 72, 0.916);
+    border-radius: 20px;
+}
+.box .boxy form{
+    background-color: transparent;
+    width: 90%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.box .boxy form div {
+    width: 100%;
+    display: flex;
+    height:12%;
+    background-color: transparent;
+    justify-content: space-around;
+    font-size: 1.3rem;
+}
+.box .boxy form div input{
+    font-size: 1.3rem;
+    border-radius:12px;
+    border: transparent;
+    background-color: rgba(142, 202, 4, 0.283);
+    color: rgb(0, 238, 255);
+    font-weight: bold;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.8);
+}
+.box .boxy form div input:hover{
+    background-color: rgba(189, 72, 72, 0.815);
+    border: 2px solid aqua;
+    color: white;
+}
+.box .boxy form .screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+    justify-content: space-between;
+}
+.box .boxy form .screen div {
+    width: 95%;
+    height: 40%;
+    justify-content: end;
+    padding-right: 6%;
+    color: yellow;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.box .boxy form .screen input{
+    width: 95%;
+    height: 55%;
+    text-align: right;
+    flex: 1;
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding-right: 5%;
+    color: white;
+    background-color: rgba(16, 10, 10, 0.664);
+    pointer-events: none;
+}
+.box .boxy form .first-line{
+    justify-content: space-between;
+    padding: 0 2.6% ;
+}
+.box .boxy form div input{
+    width: 20%;
+    height: 80%;
+}
